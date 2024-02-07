@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "mobile-app",
+    "scheme": "mobile",
+    "slug": "mobile-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/IBMPlexSansThai-Bold.ttf",
+            "./assets/fonts/IBMPlexSansThai-Thin.ttf",
+            "./assets/fonts/IBMPlexSansThai-ExtraLight.ttf",
+            "./assets/fonts/IBMPlexSansThai-Light.ttf",
+            "./assets/fonts/IBMPlexSansThai-Medium.ttf",
+            "./assets/fonts/IBMPlexSansThai-Regular.ttf",
+            "./assets/fonts/IBMPlexSansThai-SemiBold.ttf"
+          ]
+        }
+      ],
+      "expo-router"
+    ]
+  }
+}
